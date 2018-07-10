@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css?family=Radley|Keania+One|Viga|Jockey+One');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Jockey One",Radley,Verdana,'Times New Roman', Times, serif;
+    font-size: 18px;
+    background-color: rgb(25, 28, 31);
+}
+
+.hero{
+    margin: 0px;
+    padding: 15px;
+    background-color: rgb(252, 228, 10);
+    font-family: Viga,'Times New Roman', Times;
+}
+
+.show{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+   
+}
+
+@media screen and (max-width: 600px){
+    .show{
+        text-align: center;
+        margin: 0px;
+        padding: 2px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+    }
+
+    #header{
+        flex-direction: row;
+    }
+
+    .content{
+        padding: auto;
+        border: 5px solid rgb(252, 228, 10);
+        background-color: rgb(252, 228, 10);;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .feats-pic{
+        width: 128px;
+        height: 128px;
+    }
+
+    .purchase{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+
+}
+
+.product{
+    position: relative;
+    top: 50px;
+    width: 256px;
+    height: 256px;
+    transform: rotate(45deg);
+    
+}
+
+h1{
+    padding: 10px;
+    font-size: 60px;
+    font-weight: 10px;
+}
+
+#header{
+    position: fixed;
+    padding: 0;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    color: rgb(252, 228, 10);
+    font-family: "Keania One", monospace, Tahoma;
+    display: flex;
+    flex-direction: row;
+}
+
+#header li{
+    position: relative;
+    padding: 5px;
+    bottom: 10px;
+    justify-self: center;
+    list-style-type: none;
+    float: left;
+    color: rgb(252, 228, 10);
+    font-size: 35px;
+}
+
+#header a{
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 2px;
+    color:  rgb(252, 228, 10);
+}
+
+#header a:hover{
+    text-decoration: none;
+    border: 2px solid transparent;
+    padding: 2px;
+    color: black;
+    background-color:  rgb(252, 228, 10);
+}
+
+.content{
+    padding: 10px;
+    margin: 80px;
+    margin-top: 10px;
+    border: 5px solid rgb(37, 199, 221);
+    background-color: rgb(37, 199, 221);
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.content p{
+    font-family: "Jockey One",Radley, Times, Georgia;
+    font-size: 28px;
+    font-weight: 350;
+}
+
+.feats-pic{
+    width: 256px;
+    height: 256px;
+}
+
+#Howto{
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+#Howto iframe {
+    max-width: 560px;
+    width: 100%;
+}
+
+.purchase{
+    padding: 20px;
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.item1{
+    padding: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border: 30px solid black;
+    border-radius: 10px;
+    background-color: rgb(98, 95, 95);
+}
+
+#buybutton{
+    width: 156px;
+    height: 112px;
+    background-color: rgb(37, 199, 221);
+    border: 0px solid transparent;
+    border-radius: 8px;
+    color: black;
+    font-family: Impact, "Jockey One", Verdana;
+    font-size: 48px;
+    text-align: center;
+}
+
+#buybutton:hover{
+    background-color: red;
+    color: white;
+}
+
+#contact{
+    text-align: center;
+    font-family: Viga, Times;
+}
+
+.btn{
+    width: 128px;
+    height: 64px;
+    background-color: rgb(226, 213, 29);
+    border: 0px solid transparent;
+    border-radius: 8px;
+    color: black;
+    font-family: Impact, "Jockey One", Verdana;
+    font-size: 28px;
+    text-align: center;
+}
+
+.btn:hover{
+    background-color: red;
+    color: white;
+}
+
+#email{
+    width: 356px;
+    height: 64px;
+    font-size: 26px;
+    text-align: center;
+    border-radius: 12px;
+}
+
+
+.bottom{
+    width: 100%;
+    background-color: rgb(197, 197, 197);
+    font-size: 28px;
+    color: black;
+}
+
+.bottom ul{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.bottom a{
+    text-decoration: none;
+    color:black;
+}
+
+
